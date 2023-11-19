@@ -1,0 +1,55 @@
+/* Payment.css */
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .form-section {
+    margin-bottom: 15px;
+    max-height: calc(100vh - 200px); /* Limit form section height */
+  overflow-y: auto; 
+  }
+  
+  .form-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-item label {
+    display: block;
+    width: 200px; /* Adjust label width as needed */
+    text-align: left;
+    margin-bottom: 1px;
+  }
+  
+  .form-item input[type="text"] {
+    flex: 1; 
+    width: 300px; /* Input field takes full width */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 2px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4B0082;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
