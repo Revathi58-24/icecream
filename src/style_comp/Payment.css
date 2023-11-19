@@ -8,6 +8,9 @@
   }
   
   .payment-form {
+     background-image: url('https://t4.ftcdn.net/jpg/02/82/66/73/240_F_282667384_mg5sRCeFtgnP8dAprI3XhWlVCgUPPah2.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
