@@ -2,9 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import '../App.css';
 import Footer from "./Footer";
-import { useAuth0 } from '@auth0/auth0-react';
+//import { useAuth0 } from '@auth0/auth0-react';
 const Home = () => {
-  const { loginWithRedirect } = useAuth0();
   
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -226,15 +225,6 @@ healthier option does not mean you have to compromise on taste.
     <hr style={{ width: '40%', borderTop: '1px solid black', marginRight: '10px' }} />
     <span style={{ color: 'black', fontWeight: 'bold' }}>OR</span>
     <hr style={{ width: '40%', borderTop: '1px solid black', marginLeft: '10px' }} />
-  </div>
-  <div className="d-flex justify-content-center mt-4">
-    <button
-      className="btn btn-danger"
-      onClick={() => loginWithRedirect()}
-      style={{ marginBottom: '10px', backgroundColor: '#007fff', borderColor: '#87CEEB'}}
-    >
-      Continue with Google
-    </button>
   </div>
 
        
