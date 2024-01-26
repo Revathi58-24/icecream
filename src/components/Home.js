@@ -221,11 +221,6 @@ healthier option does not mean you have to compromise on taste.
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Join →</button>
           </div>
-          <div className="d-flex justify-content-center align-items-center mt-4">
-    <hr style={{ width: '40%', borderTop: '1px solid black', marginRight: '10px' }} />
-    <span style={{ color: 'black', fontWeight: 'bold' }}>OR</span>
-    <hr style={{ width: '40%', borderTop: '1px solid black', marginLeft: '10px' }} />
-  </div>
 
        
         </div>
